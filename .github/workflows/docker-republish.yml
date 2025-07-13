@@ -52,5 +52,5 @@ jobs:
         push: true
         platforms: linux/amd64,linux/arm64
         tags: |
-          ghcr.io/qmk/qmk_cli:latest
-          qmkfm/qmk_cli:latest
+          ghcr.io/drashna/qmk_cli:latest
+          drashna/qmk_cli:latest

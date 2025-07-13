@@ -9,7 +9,7 @@ on:
 jobs:
   test_cli_base_container:
     runs-on: ubuntu-latest
-    container: ghcr.io/qmk/qmk_base_container
+    container: ghcr.io/drashna/qmk_base_container
 
     env:
       QMK_HOME: ~/qmk_firmware
